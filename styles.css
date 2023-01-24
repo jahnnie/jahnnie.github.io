@@ -1,0 +1,118 @@
+html {
+	background-color: #022D36;
+}
+
+body {
+	font-family: "Georgia";
+	color: white;
+}
+
+header {
+	font-size: 25px;
+	padding-left: 5px;
+}
+
+div.headerDiv {
+	position: fixed;
+	z-index: 9999;
+	background-color: #022D36;
+	width: 100%;
+	height: 25px;
+	display: flex;
+	justify-content: space-between;
+	align-items: left;
+	top: 0;
+	left: 0;
+	padding-top: 10px;
+	padding-left: 5px;
+	padding-bottom: 10px;
+}
+
+#whHead {
+	padding-top: 50px;
+	padding-left:40px;
+	opacity: 0;
+	font-size: 20px;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a.topLink {
+	font-size: 25px;
+}
+
+#buttons {
+	width: 20%;
+	display: flex;
+	flex-direction: column;
+	font-family: "Georgia";
+	font-size: 20px;
+	color: white;
+	background: none;
+	border: none;
+	opacity: 0;
+	text-align: left;
+	transition: 0.3s;
+	padding-left: 50px;
+}
+
+button {
+	font-family: inherit;
+	font-size: inherit;
+	color: inherit;
+	background: inherit;
+	border: inherit;
+	opacity: inherit;
+	text-align: inherit;
+	transition: inherit;
+}
+
+#buttons button:hover {
+	opacity: 0.6;
+}
+
+img.linkedIn{
+	width: 20px;
+	height:20px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#opener {
+	font-size: 30px;
+	padding-left: 40px;
+	padding-right: 100px;
+	padding-top: 50px;
+}
+
+#mainPara {
+	font-size: 20px;
+	padding-left: 60px;
+	padding-right: 200px;
+	padding-top: 30px;
+	color: #C5C6D0;
+	
+}
+
+.maximus {
+	width: auto;
+	height: 40px;
+}
+
+.SAP {
+	width: auto;
+	height: 40px;
+}
+
+.UBC {
+	width: auto;
+	height: 40px;
+}
+
+.GDMS {
+	width: auto;
+	height: 40px;
+}
